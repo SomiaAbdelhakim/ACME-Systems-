@@ -1,5 +1,44 @@
-### Documentation is included in the Documentation folder ###
+# Verify Account Positions Automation for ACME Systems Inc.
 
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Architecture](#architecture)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+
+
+## Introduction
+
+Welcome to the **Verify Account Positions Automation** project for ACME Systems Inc. This project automates the verification of account positions for clients at ACME Systems Inc. using UiPath's Robotic Enterprise Framework (REFramework). The automation process involves comparing transactions between System 1 (Web Application) and System 3 (Desktop Application), identifying discrepancies, and updating the transaction status accordingly. By leveraging Orchestrator queues, the solution ensures efficient workload distribution, robust exception handling, and seamless integration with existing systems.
+**The components for ACME1 and ACME3 have been developed as reusable modules, which are seamlessly integrated into the overall automation workflow.**
+
+## Features
+
+- **Automated Transaction Verification:** Compares account transactions between System 1 (Web Application) and System 3 (Desktop Application).
+- **Exception Handling:** Differentiates and handles Business Rule Exceptions and System Exceptions effectively.
+- **Orchestrator Queue Integration:** Manages transactions using Orchestrator queues for scalability and reliability.
+- **Workload Distribution:** Supports running the automation on multiple robots (local and virtual machines) to enhance processing speed.
+- **Comprehensive Logging:** Detailed logs for monitoring and diagnosing issues via UiPath Orchestrator.
+
+## Architecture
+
+The automation follows the Robotic Enterprise Framework (REFramework) structure, which includes the following key states:
+- **Init:** Initializes settings, application, and retrieves initial data.
+- **Get Transaction Data:** Retrieves transaction items from the Orchestrator queue.
+- **Process Transaction:** Processes each transaction item, handles exceptions, and updates transaction status.
+- **End Process:** Closes applications and performs cleanup tasks.
+
+## Prerequisites
+
+- **UiPath Studio:** Ensure you have UiPath Studio installed.
+- **UiPath Orchestrator:** Access to UiPath Orchestrator for queue management and robot orchestration.
+- **Access Credentials:** Necessary credentials to access System 1 and System 3 applications.
+- **Configuration Files:** Access to the provided `Config.xlsx` and CSV files containing test data.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------
+<be>
 
 ### REFrameWork Template ###
 **Robotic Enterprise Framework**
