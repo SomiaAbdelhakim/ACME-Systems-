@@ -5,7 +5,6 @@
 - [Features](#features)
 - [Architecture](#architecture)
 - [Prerequisites](#prerequisites)
-- [Installation](#installation)
 
 
 ## Introduction
@@ -18,7 +17,6 @@ Welcome to the **Verify Account Positions Automation** project for ACME Systems 
 - **Automated Transaction Verification:** Compares account transactions between System 1 (Web Application) and System 3 (Desktop Application).
 - **Exception Handling:** Differentiates and handles Business Rule Exceptions and System Exceptions effectively.
 - **Orchestrator Queue Integration:** Manages transactions using Orchestrator queues for scalability and reliability.
-- **Workload Distribution:** Supports running the automation on multiple robots (local and virtual machines) to enhance processing speed.
 - **Comprehensive Logging:** Detailed logs for monitoring and diagnosing issues via UiPath Orchestrator.
 
 ## Architecture
