@@ -5,6 +5,7 @@
 - [Features](#features)
 - [Architecture](#architecture)
 - [Prerequisites](#prerequisites)
+- [Libraries Version](#LibrariesVersion)
 
 
 ## Introduction
@@ -34,6 +35,12 @@ The automation follows the Robotic Enterprise Framework (REFramework) structure,
 - **Access Credentials:** Necessary credentials to access System 1 and System 3 applications.
 - **Configuration Files:** Access to the provided `Config.xlsx` and CSV files containing test data.
 
+### Libraries Version
+- **ACME1 Library**: 
+  - **Version**: 1.0.4
+    
+- **ACME3 Library**: 
+  - **Version**: 1.0.2
 
 --------------------------------------------------------------------------------------------------------------------------------------
 <be>
