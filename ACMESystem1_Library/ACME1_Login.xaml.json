@@ -1,0 +1,57 @@
+{
+  "DisplayName": "ACME1_Login",
+  "Tooltip": "Description: Login in ACME System 1.\n\nPreCondtion: The login Page Exist\n\nPostCondition: The Dashboard Page is Exist\n\nIn_Arg: \n- in_RetryNum\n- in_RetryInterval\n- in_Email\n-  in_Password\r\n\nOut_Arg:",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_RetryNum",
+      "DisplayName": "RetryNum",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "3",
+      "Widget": "Number",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_Email",
+      "DisplayName": "Email",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "",
+      "Widget": "TextComposer",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_Password",
+      "DisplayName": "Password",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "",
+      "Widget": null,
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_RetryInterval",
+      "DisplayName": "RetryInterval",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "00:00:03",
+      "Widget": "Timespan",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

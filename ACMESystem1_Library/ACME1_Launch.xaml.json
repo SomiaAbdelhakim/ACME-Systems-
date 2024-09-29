@@ -1,0 +1,33 @@
+{
+  "DisplayName": "ACME1_Launch",
+  "Tooltip": "Description: Open ACME System 1\n\nPreCondtion: N/A\n\nPostCondition: Login Page is  Exists\n\nIn_Arg:\n- in_GoogleUrl\n- in_RetryNum\n- in_RetryIntrval\r\n\nOut_Arg:",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_RetryNum",
+      "DisplayName": "RetryNum",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "3",
+      "Widget": "Number",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_RetryInterval",
+      "DisplayName": "RetryInterval",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "00:00:03",
+      "Widget": "Timespan",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

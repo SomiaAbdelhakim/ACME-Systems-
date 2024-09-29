@@ -1,0 +1,45 @@
+{
+  "DisplayName": "ACME3_ExtractAccountMovements",
+  "Tooltip": "Description:  Extract All Account Movements and Transactions for Each Client\n\nPreCondtion: Account Movements is open\n\nPostCondition: The Extracted Data is Not Null\n\nIn_Arg:\n- in_RetryNum\n- in_RetryInterval\n\nOut_Arg:\n- out_AccMovements",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_RetryNum",
+      "DisplayName": "RetryNum",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "3",
+      "Widget": "Number",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_RetryInterval",
+      "DisplayName": "RetryInterval",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "00:00:03",
+      "Widget": "Timespan",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "out_AccMovements",
+      "DisplayName": "AccMovements",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

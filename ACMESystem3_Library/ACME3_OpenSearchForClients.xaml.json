@@ -1,0 +1,45 @@
+{
+  "DisplayName": "ACME3_OpenSearchForClients",
+  "Tooltip": "Description: Open Search for Clients By ID Window\n\nPreCondtion: Welcome page is Exists\n\nPostCondition: Search By Client ID is exits\n\nIn_Arg:\n- in_RetryNum\n- in_RetryInterval\n- in_UserName\n\nOut_Arg:",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_RetryNum",
+      "DisplayName": "RetryNum",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "3",
+      "Widget": "Number",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_RetryInterval",
+      "DisplayName": "RetryInterval",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "00:00:03",
+      "Widget": "Timespan",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_UserName",
+      "DisplayName": "UserName",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "",
+      "Widget": "TextComposer",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

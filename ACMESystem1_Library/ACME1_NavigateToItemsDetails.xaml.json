@@ -1,0 +1,45 @@
+{
+  "DisplayName": "ACME1_NavigateToItemsDetails",
+  "Tooltip": "Description: Navigate to for each Work Items Details by WIID\n\nPreCondtion: N/A\n\nPostCondition: Work Items Details Page is exists\n\nIn_Arg:\n- in_RetryNum\n- in_RetryInterval\n- in_WIID\n\nOut_Arg:",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_RetryNum",
+      "DisplayName": "RetryNum",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "3",
+      "Widget": "Number",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_RetryInterval",
+      "DisplayName": "RetryInterval",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "00:00:03",
+      "Widget": "Timespan",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_WIID",
+      "DisplayName": "WIID",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

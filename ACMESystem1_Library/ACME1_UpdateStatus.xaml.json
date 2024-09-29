@@ -1,0 +1,57 @@
+{
+  "DisplayName": "ACME1_UpdateStatus",
+  "Tooltip": "Description: Update The Status of Item Work\n\nPreCondtion: The Update Work Item Window is Open\n\nPostCondition: Pop-up Window that status updated successfully \n\nIn_Arg:\n- in_RetryNum\n- in_RetryInterval\n- in_WIID\n- in_IsComplete\n\nOut_Arg:",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_RetryNum",
+      "DisplayName": "RetryNum",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "3",
+      "Widget": "Number",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_RetryInterval",
+      "DisplayName": "RetryInterval",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "00:00:03",
+      "Widget": "Timespan",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_WIID",
+      "DisplayName": "WIID",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "TextComposer",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_IsComplete",
+      "DisplayName": "IsComplete",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "Toggle",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

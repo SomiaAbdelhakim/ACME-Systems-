@@ -1,0 +1,33 @@
+{
+  "DisplayName": "ACME1_NavigateToWorkItems",
+  "Tooltip": "Description: Navigate from Dashboard to WorkItems\n\nPreCondtion: Dashboard Pags is Exists\n\nPostCondition: WorkItems Page is Exists\n\nIn_Arg:\n- in_RetryNym\n- in_RetryInterval\r\n\nOut_Arg:",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_RetryNum",
+      "DisplayName": "RetryNum",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "3",
+      "Widget": "Number",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_RetryInterval",
+      "DisplayName": "RetryInterval",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "00:00:03",
+      "Widget": "Timespan",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

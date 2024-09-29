@@ -1,0 +1,45 @@
+{
+  "DisplayName": "ACME1_ReadWorkItems",
+  "Tooltip": "Description: Read ALL The Work Items Table From ACME System1\n\nPreCondtion: WorkItems Page Exists\n\nPostCondition: The Data extracted Successfully\n\nIn_Arg:\n- in_RetryNum\n- in_RetryInterval\n\nOut_Arg:\n-  out_ExtractedDataTable",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_RetryNum",
+      "DisplayName": "RetryNum",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "3",
+      "Widget": "Number",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_RetryInterval",
+      "DisplayName": "RetryInterval",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "00:00:03",
+      "Widget": "Timespan",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "out_ExtractDataTable",
+      "DisplayName": "ExtractDataTable",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

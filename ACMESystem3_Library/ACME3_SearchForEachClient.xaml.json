@@ -1,0 +1,45 @@
+{
+  "DisplayName": "ACME3_SearchForEachClient",
+  "Tooltip": "Description: Searching for each Client using client ID\n\nPreCondtion: Search Form is Open\n\nPostCondition: Client ID is Exists in search Form\n\nIn_Arg:\n- in_RetryNum\n- in_RetryInterval\n- in_ClientID\n\nOut_Arg:",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_RetryNum",
+      "DisplayName": "RetryNum",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "3",
+      "Widget": "Number",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_RetryInterval",
+      "DisplayName": "RetryInterval",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "00:00:03",
+      "Widget": "Timespan",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_ClientID",
+      "DisplayName": "ClientID",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "",
+      "Widget": "TextComposer",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

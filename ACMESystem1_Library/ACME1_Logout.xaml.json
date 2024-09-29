@@ -1,0 +1,33 @@
+{
+  "DisplayName": "ACME1_Logout",
+  "Tooltip": "Description: Logout from ACME System1\n\r\nPreCondtion: The ACME System Page is Sxists\n\r\nPostCondition: The ACME System1 Login Page is Exists\n\nIn_Arg:\r\n- in_RetryNum\r\n- in_RetryInterval\n\r\nOut_Arg:",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_RetryNum",
+      "DisplayName": "RetryNum",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "3",
+      "Widget": "Number",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_RetryInterval",
+      "DisplayName": "RetryInterval",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "00:00:03",
+      "Widget": "Timespan",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

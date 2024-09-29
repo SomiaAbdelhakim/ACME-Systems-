@@ -1,0 +1,33 @@
+{
+  "DisplayName": "ACME3_ClickShowAllButton_AccountMovements",
+  "Tooltip": "Description: Click on the Show All Button on the Account Movement Window To Review The list of Transactions and Movements\n\nPreConditon: Account Movements Window is Open with No Search Result\n\nPostCondition: The Table of Transaction is Not Null.\n\nIn_Arg:\n- in_RetryNum,\n- in_RetryInterval\n\nOut_Arg:",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_RetryNum",
+      "DisplayName": "RetryNum",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "3",
+      "Widget": "Number",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_RetryInterval",
+      "DisplayName": "RetryInterval",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "00:00:003",
+      "Widget": "Timespan",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

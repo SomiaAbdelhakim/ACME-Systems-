@@ -1,0 +1,33 @@
+{
+  "DisplayName": "ACME1_ClickOk_UpdateStatusWindow",
+  "Tooltip": "Description: Click OK On The Pop-Up Window That Says The Work Item Status Updated Successfully.\n\nPreCondtion: Work Item Updated Successfully Window is Exists.\n\nPostCondition: Work Item Details Page is Exists\n\nIn_Arg: \n- in_RetryNum\n- in_RetryInterval\n\nOut_Arg:",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_RetryNum",
+      "DisplayName": "RetryNum",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "3",
+      "Widget": "Number",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_RetryInterval",
+      "DisplayName": "RetryInterval",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "00:00:02",
+      "Widget": "Timespan",
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}
